@@ -25,7 +25,6 @@ const getBookName = inputVal => {
     fetch(url)
     .then(res => res.json())
     .then(data => displayBook(data.docs, data.numFound))
-    
 };
 
 //function for displaying Book list.
